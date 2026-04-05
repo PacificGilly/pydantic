@@ -1,0 +1,1 @@
+::: pydantic.projected_model
