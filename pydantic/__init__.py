@@ -48,6 +48,7 @@ if TYPE_CHECKING:
     from .json_schema import WithJsonSchema
     from .main import *
     from .networks import *
+    from .projected_model import Projected, ProjectedModel
     from .type_adapter import TypeAdapter
     from .types import *
     from .validate_call_decorator import validate_call
@@ -148,6 +149,9 @@ __all__ = (
     'ClickHouseDsn',
     'SnowflakeDsn',
     'validate_email',
+    # projected_model
+    'Projected',
+    'ProjectedModel',
     # root_model
     'RootModel',
     # deprecated tools, these are imported via `__getattr__` below
